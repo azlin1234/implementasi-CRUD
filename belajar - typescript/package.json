@@ -1,0 +1,18 @@
+{
+"name": "belajar - typescript",
+"module": "index.ts",
+"type": "module",
+"private": true,
+
+"scrpit": {
+    "start": "bun src/index.ts",
+    "dev": "bun src/index.ts --watch"
+},
+"devDependencies": {
+    "@types/bun": "lates"
+},
+
+"peerDependencies": {
+    "typescript": "^7"
+}
+}
